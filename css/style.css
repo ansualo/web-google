@@ -74,7 +74,6 @@ body{
     background-color: rgb(57, 57, 252);
 } 
 .center{
-    background-color: blueviolet;
     width: 100vw;
     height: 40em;
     display: flex;
@@ -83,16 +82,43 @@ body{
     align-items: center;
 }
 .logo{
-    
+    width: 22em;
+    height: 12em;
+    background-image: url(../img/logo-google.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-
-
-
-
+.search{
+    width: 37em;
+    height: 2.5em;
+    border: 0.1em solid darkgray;
+    border-radius: 2em;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.menu{
+    width: 20em;
+    height: 3em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+}
+.idiomas{
+    width: 22em;
+    height: 2em;
+    display: flex;
+    justify-content: space-around;
+    font-size:small;
+}
+.catala, .galego, .euskara{
+    color: darkblue;
+}
 .footer{
-    background-color: orangered;
     width: 100vw;
     height: 10em;
 }

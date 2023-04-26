@@ -1,0 +1,99 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+
+.headerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 100vw;
+    height: 3em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobreGoogle{
+    width: 7em;
+    margin: 0 2em 0 2em;
+}
+.tienda{
+    width: 3.5em;
+}
+.headerEmpty{
+    width: 84em;
+    height: 3em;
+}
+.headerLeft{
+    width: 20em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.gmail{
+    width: 3em;
+    margin: 0 0.5em 0 0.5em;
+}
+.imagenes{
+    width: 4em;
+    margin: 0 1em 0 1em;
+}
+.dots{
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 0.5em 0 0.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dot{
+    width: 0.25em;
+    height: 0.25em;
+    margin:0.03em;
+    border-radius: 50%;
+    background-color: black;
+}
+.signIn{
+    width: 5.5em;
+    height: 2.5em;
+    margin: 0 2em 0 0.5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(57, 57, 252);
+} 
+.center{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    
+}
+
+
+
+
+
+
+.footer{
+    background-color: orangered;
+    width: 100vw;
+    height: 10em;
+}
+
